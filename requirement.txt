@@ -1,3 +1,4 @@
 Flask
-SQLAlchemy
-Marshmallow
+Flask_SQLAlchemy
+Flask_Marshmallow
+marshmallow-sqlalchemy
