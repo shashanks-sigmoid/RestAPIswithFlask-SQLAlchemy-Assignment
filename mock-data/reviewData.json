@@ -1,0 +1,182 @@
+[
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-1",
+                "book_title": "Book-1",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-1"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    },
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-2",
+                "book_title": "Book-2",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-2"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    },
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-3",
+                "book_title": "Book-3",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-3"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    },
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-4",
+                "book_title": "Book-4",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-4"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    },
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-5",
+                "book_title": "Book-5",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-5"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    },
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-6",
+                "book_title": "Book-6",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-6"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    },
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-7",
+                "book_title": "Book-7",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-7"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    },
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-8",
+                "book_title": "Book-8",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-8"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    },
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-9",
+                "book_title": "Book-9",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-9"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    },
+    {
+        "copy_right": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+        "num_results": 2,
+        "results": [
+            {
+                "book_author": "Author-10",
+                "book_title": "Book-10",
+                "byline": "JANET MASLIN",
+                "isbn13": [
+                    "isbn-10"
+                ],
+                "publication_dt": "2011-11-10",
+                "summary": "In “1Q84,” the Japanese novelist Haruki Murakami writes about characters in a Tokyo with two moons.",
+                "url": "http://www.nytimes.com/2011/11/10/books/1q84-by-haruki-murakami-review.html"
+            }
+        ],
+        "status": "OK"
+    }
+]
