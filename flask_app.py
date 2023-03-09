@@ -36,7 +36,7 @@ class ReviewSchema(ma.Schema):
 review_schema = ReviewSchema()
 reviews_schema = ReviewSchema(many=True)
 
-# Create a Product
+# Create a List
 @app.route('/list', methods=['POST'])
 def add_product():
   status = request.json['status']
@@ -54,6 +54,7 @@ def add_product():
 
   return product_schema.jsonify(new_product)
 
+# Get All Lists
 @app.route('/lists', methods=['GET'])
 def get_products():
   all_products = Product.query.all()
@@ -84,7 +85,7 @@ def get_books_with_date_and_name(date,name):
                 books.append(list)       
   return jsonify(books)
 
-# Get All Best-Sellers NYT based on current date and name
+# Get All Best-Sellers NYT based on current(latest) date and name
 @app.route('/lists/current/<name>', methods=['GET'])
 def get_books_with_current_date_and_name(name):
   all_products = Product.query.all()
