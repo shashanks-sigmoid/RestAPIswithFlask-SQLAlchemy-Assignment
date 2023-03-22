@@ -100,6 +100,46 @@ def get_books_with_current_date_and_name(name):
                 books.append(list)       
   return jsonify(books)
 
+
+# Get all books for all the Best Sellers lists for specified date.
+@app.route('/lists/fulloverview.json', methods=['GET'])
+def get_full_overview():
+  published_date = request.args.get("published_date")
+  if not published_date:
+    all_products = Product.query.order_by(Product.results["published_date"].desc()).limit(1)
+  else:
+    published_date = '"'+published_date+'"'
+    all_products = Product.query.filter(Product.results["published_date"] >= published_date).limit(1)
+  results = products_schema.dump(all_products)
+    # print(len(results[0]["results"]["lists"][i]["books"]))
+  # print(length_lists)
+  return jsonify(results)
+
+
+# Get top 5 books for all the Best Sellers lists for specified date.
+@app.route('/lists/overview.json', methods=['GET'])
+def get_overview():
+  published_date = request.args.get("published_date")
+  if not published_date:
+    all_products = Product.query.order_by(Product.results["published_date"].desc()).limit(1)
+  else:
+    published_date = '"'+published_date+'"'
+    all_products = Product.query.filter(Product.results["published_date"] >= published_date).limit(1)
+  results = products_schema.dump(all_products)
+  length_lists = len(results[0]["results"]["lists"])
+  key_list_remove = ['buy_links','amazon_product_url','article_chapter_link','book_image','book_image_width','book_image_height'
+                      , 'book_review_link', 'first_chapter_link', 'book_uri', 'rank_last_week', 'sunday_review_link', 'weeks_on_list']
+  for i in range(length_lists):
+    results[0]["results"]["lists"][i]["books"] = results[0]["results"]["lists"][i]["books"][:5]
+    for book in results[0]["results"]["lists"][i]["books"]:
+      for key in key_list_remove:
+        book.pop(key, None)
+    # print(len(results[0]["results"]["lists"][i]["books"]))
+  # print(length_lists)
+  return jsonify(results)
+
+
+
 # Create a Review
 @app.route('/review', methods=['POST'])
 def add_review():
@@ -140,6 +180,8 @@ def get_review_query():
         
     result = reviews_schema.dump(all_reviews)
     return jsonify(result)
+
+
 
 
 if __name__ == "__main__":
